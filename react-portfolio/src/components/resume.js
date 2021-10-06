@@ -1,8 +1,9 @@
 function Resume() {
-    return <div>
+    return (
+      <div>
 
-        
-    </div>
+      </div>
+    );
 }
 
 export default Resume;
