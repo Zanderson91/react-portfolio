@@ -4,18 +4,21 @@ import Footer from "./components/footer";
 import Nav from "./components/nav";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
+import Contact from "./components/contact";
+import Resume from "./components/resume";
 
 
 function App() {
   return (
-    <header className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About Me />
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Nav />
+      <Header />
       <Projects />
       <Skills />
       <Contact />
       <Resume />
-    </header>
+      <Footer />
+    </main>
   );
 }
 
