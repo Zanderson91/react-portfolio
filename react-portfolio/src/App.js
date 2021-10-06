@@ -8,7 +8,7 @@ import Skills from "./components/skills";
 
 function App() {
   return (
-    <header>
+    <header className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About Me />
       <Projects />
