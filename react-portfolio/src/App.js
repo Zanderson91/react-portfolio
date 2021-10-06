@@ -1,7 +1,12 @@
 import React from "react";
-import "./App.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Nav from "./components/nav";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
 
-function React() {
+
+function App() {
   return (
     <header>
       <Navbar />
@@ -14,4 +19,4 @@ function React() {
   );
 }
 
-export default React;
+export default App;
