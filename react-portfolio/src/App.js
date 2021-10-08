@@ -14,12 +14,6 @@ function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Nav />
-      <Header />
-      <Projects />
-      <Skills />
-      <Resume />
-      <Contact />
-      <Footer />
 
       <Switch>
         <Route path="/" exact>
@@ -38,6 +32,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      <Footer />
     </main>
   );
 }
