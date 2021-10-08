@@ -5,7 +5,7 @@ export const projectList = [
     description:
       "The Fitness Tracker app allows users to create and track workouts. Users are able to: Add exercises to the most recent workout plan, add new exercises to a new workout plan on a given day. They can also view the combined weight of multiple exercises from the past seven workouts on the `stats` page.",
     image: "./project1-gif.gif",
-    link: "https://github.com/Zanderson91/fitness-tracker",
+    link: "https://anderson-fitness-tracker.herokuapp.com/?id=614d3e47f188341d22386484",
   },
   {
     title: "Budget Tracker",
