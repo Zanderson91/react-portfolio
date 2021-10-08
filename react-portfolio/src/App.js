@@ -6,6 +6,7 @@ import Projects from "./components/projects";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
 import Resume from "./components/resume";
+import { Route, Switch } from 'react-router';
 import "./App.css";
 
 
@@ -19,6 +20,24 @@ function App() {
       <Resume />
       <Contact />
       <Footer />
+
+      <Switch>
+        <Route path="/" exact>
+          <Header />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/skills">
+          <Skills />
+        </Route>
+        <Route path="/Resume-for-ATS-2021.pdf">
+          <Resume />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
     </main>
   );
 }

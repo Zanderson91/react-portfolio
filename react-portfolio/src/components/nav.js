@@ -12,7 +12,6 @@ function Nav() {
           <div class="pl-4 flex items-center"></div>
           <div
             class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
-            id="nav-content"
           >
             <ul class="list-reset lg:flex justify-end flex-1 items-center">
               <li class="mr-3">
@@ -45,11 +44,14 @@ function Nav() {
               Link to="/Resume-for-ATS-2021.pdf"
             >
               Resume
-            </ Link>
-          </div>{" "}
-        </div>{" "}
+            </Link>
+          </div>
+        </div>
         <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
-      </nav>{" "}
+      </nav>
+      <footer className="footer">
+        <p>@2021 Zack Anderson</p>
+      </footer>
     </div>
   );
 }

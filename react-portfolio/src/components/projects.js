@@ -1,5 +1,6 @@
 import React from 'react';
 import { projectList } from './project-list'
+import { Nav } from './nav'
 
 function Projects() {
   return (
