@@ -5,13 +5,13 @@ import Nav from "./components/nav";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
-import { Route, Switch, HashRouter } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import "./App.css";
 
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <main className="text-gray-400 bg-gradient-to-br from-gray-900 via-gray-900 to-green-900 body-font">
         <Nav />
 
@@ -31,7 +31,7 @@ function App() {
         </Switch>
         <Footer />
       </main>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
