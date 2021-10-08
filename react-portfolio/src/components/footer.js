@@ -1,9 +1,9 @@
 function Footer() {
-  return (
+    return (
     <div>
       <footer class="footer bg-dark relative pt-1 border-b-2 ">
         <div class="container mx-auto px-6 items-center">
-          <div class="mt-16 mb-20 border-t-2 border-gray-300 flex flex-col items-center">
+          <div class="mt-16 pb-24 border-t-2 border-gray-300 flex flex-col items-center">
             <div class="sm:w-2/3 text-center py-6">
               <div class="flex flex-wrap justify-center gap-2 pt-2">
                 <button class="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">

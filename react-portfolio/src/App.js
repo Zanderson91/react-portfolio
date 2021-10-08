@@ -25,9 +25,6 @@ function App() {
         <Route path="/skills">
           <Skills />
         </Route>
-        <Route path="/Resume-for-ATS-2021.pdf">
-          <Resume />
-        </Route>
         <Route path="/contact">
           <Contact />
         </Route>
