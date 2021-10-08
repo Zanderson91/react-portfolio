@@ -19,7 +19,7 @@ function Contact() {
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="text-indigo-400 leading-relaxed">
+                <a className="text-indigo-400 leading-relaxed" href="mailto:zack.anderson2011@gmail.com">
                   zack.anderson2011@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
