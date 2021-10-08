@@ -30,13 +30,10 @@
 
 .navbar--hidden {
   top: -50px;
+  display: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#nav {
+
 }
+

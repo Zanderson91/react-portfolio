@@ -6,16 +6,16 @@ function Nav() {
     <div>
       <nav
         id="nav"
-        class="fixed w-full z-30 top-0 text-white bg-gradient-to-r from-gray-900 to-green-600"
+        class="fixed w-full z-30 top-0 text-white"
       >
         <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 ">
           <div class="pl-4 flex items-center"></div>
-          <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20">
+          <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-white p-4 lg:p-0 z-20">
             <ul class="list-reset lg:flex justify-end flex-1 items-center">
               <li class="mr-3">
                 <Link
                   to="/"
-                  class="inline-block py-2 px-4 text-black no-underline hover:text-gray-800 hover:text-underline"
+                  class="inline-block py-2 px-4 no-underline hover:text-gray-800 hover:text-underline"
                 >
                   Home
                 </Link>
@@ -23,7 +23,7 @@ function Nav() {
               <li class="mr-3">
                 <Link
                   to="/projects"
-                  class="inline-block py-2 px-4 text-black font-bold no-underline hover:text-gray-800 hover:text-underline"
+                  class="inline-block py-2 px-4 font-bold no-underline hover:text-gray-800 hover:text-underline"
                 >
                   Projects
                 </Link>
@@ -31,7 +31,7 @@ function Nav() {
               <li class="mr-3">
                 <Link
                   to="/skills"
-                  class="inline-block py-2 px-4 text-black no-underline hover:text-gray-800 hover:text-underline"
+                  class="inline-block py-2 px-4 no-underline hover:text-gray-800 hover:text-underline"
                 >
                   Skills
                 </Link>
@@ -39,7 +39,7 @@ function Nav() {
               <li class="mr-3">
                 <Link
                   to="/contact"
-                  class="inline-block py-2 px-4 text-black no-underline hover:text-gray-800 hover:text-underline"
+                  class="inline-block py-2 px-4 no-underline hover:text-gray-800 hover:text-underline"
                 >
                   Contact
                 </Link>
@@ -55,9 +55,6 @@ function Nav() {
         </div>
         <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
       </nav>
-      <footer className="footer">
-        <p>@2021 Zack Anderson</p>
-      </footer>
     </div>
   );
 }

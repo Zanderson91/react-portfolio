@@ -57,7 +57,7 @@ function Footer() {
                   </button>
                 </a>
                 <div class="container mx-auto px-6 items-center pt-3">
-                  <p class="text-sm text-green-600 font-bold mb-2">
+                  <p class="text-sm text-white font-bold mb-2">
                     © 2021 by Zack Anderson
                   </p>
                 </div>

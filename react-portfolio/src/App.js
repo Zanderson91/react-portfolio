@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-gradient-to-br from-gray-900 via-gray-900 to-green-900 body-font">
       <Nav />
 
       <Switch>

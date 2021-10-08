@@ -4,8 +4,8 @@ function Contact() {
     return (
       <section id="contact" className="relative">
         <div className="container px-5 py-20 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden flex items-center justify-start relative">
-            <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden flex items-center justify-start relative">
+            <div className="bg-gradient-to-br from-gray-900 to-green-900 body-font relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/1 px-6">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   ADDRESS
@@ -38,8 +38,8 @@ function Contact() {
               Contact Me
             </h2>
             <p className="leading-relaxed mb-5">
-                        Looking to get in touch with me?
-                        Fill out a quick form so we can connect!
+              Looking to get in touch with me? Fill out a quick form so we can
+              connect!
             </p>
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-400">
