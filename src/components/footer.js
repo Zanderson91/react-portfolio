@@ -6,7 +6,7 @@ function Footer() {
           <div class="mt-28 pb-20 border-t-2 border-gray-300 flex flex-col items-center">
             <div class="sm:w-2/3 text-center py-6">
               <div class="flex flex-wrap justify-center gap-2 pt-2">
-                <a href="http://www.github.com/Zanderson91">
+                <a href="https://www.linkedin.com/in/zack-anderson-2021/">
                   <button class="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
                     <svg
                       class="w-5 h-5 fill-current"
@@ -23,7 +23,6 @@ function Footer() {
                 <a href="http://www.github.com/Zanderson91">
                   <button
                     class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
-                    href="http://www.github.com"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
