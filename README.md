@@ -34,5 +34,5 @@
   Github: [Zanderson91] (https://github.com/Zanderson91)
 
 
-  Email me your questions: [zack.anderson2011@gmail.com] (mailto:zack.anderson2011@gmail.com)
+  Email me your questions: [zack.anderson2011@gmail.com]
 
